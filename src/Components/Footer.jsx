@@ -18,20 +18,7 @@ const Footer = () => {
           </p>
 
           {/* Social Icons */}
-          <div className="flex items-center gap-4 mt-5">
-            <a href="#" className="hover:text-green-500 text-xl">
-              📘
-            </a>
-            <a href="#" className="hover:text-green-500 text-xl">
-              🐦
-            </a>
-            <a href="#" className="hover:text-green-500 text-xl">
-              📸
-            </a>
-            <a href="#" className="hover:text-green-500 text-xl">
-              💼
-            </a>
-          </div>
+          
         </div>
 
         {/* Quick Links */}
