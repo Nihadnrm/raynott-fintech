@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { Routes,Route } from 'react-router-dom'
 import Home from './Components/Home'
-import Authpage from './Components/AuthPage'
+import AuthPage from './Components/AuthPage'
 import Navbar from './Components/Navbar'
 import Services from './Components/Services'
 import About from './Components/About'
@@ -30,7 +30,7 @@ function App() {
      {!hidenavbar && <Navbar />}
     <Routes>
       <Route path='/' element={<Home/>}/>
-      <Route path='/auth' element={<Authpage/>}/>
+      <Route path='/auth' element={<AuthPage/>}/>
       <Route path='/services' element={<Services/>}/>
       <Route path='/about' element={<About/>}/>
       <Route path='/contact' element={<Contact/>}/>
