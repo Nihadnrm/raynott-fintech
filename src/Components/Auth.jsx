@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { registerApi, loginApi } from "../Services/AllApi";
 
-const AuthPage = () => {
+const Auth = () => {
   const [isLogin, setIsLogin] = useState(true);
   const [reg, setReg] = useState({ username: "", email: "", password: "" });
   const [log, setLog] = useState({ email: "", password: "" });
@@ -195,4 +195,4 @@ const AuthPage = () => {
   );
 };
 
-export default AuthPage;
+export default Auth;
