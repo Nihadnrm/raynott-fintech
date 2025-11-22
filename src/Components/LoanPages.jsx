@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { addLoanApi } from "../Services/AllApi";
 import { useNavigate } from "react-router-dom";
 
-const LoanPage = () => {
+const LoanPages = () => {
   const nav = useNavigate();
 
   const [data, setData] = useState({
@@ -156,4 +156,4 @@ const LoanPage = () => {
   );
 };
 
-export default LoanPage;
+export default LoanPages;

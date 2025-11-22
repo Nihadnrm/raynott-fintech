@@ -12,7 +12,7 @@ import AddMoney from './Components/AddMoney'
 import TransactionHistory from './Components/TransactionHistory'
 import Balance from './Components/Balance'
 import RetrieveMoney from './Components/RetrieveMoney'
-import LoanPage from './Components/Loanpage'
+import LoanPages from './Components/LoanPages'
 import Footer from './Components/Footer'
 
 function App() {
@@ -38,7 +38,7 @@ function App() {
       <Route path='/th' element={<TransactionHistory/>}/>
       <Route path='/balance' element={<Balance/>}/>
       <Route path='/retrieve' element={<RetrieveMoney/>}/>
-      <Route path='/loan' element={<LoanPage/>}/>
+      <Route path='/loan' element={<LoanPages/>}/>
 
     </Routes>
       {!hidefooter && <Footer/>}
